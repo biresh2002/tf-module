@@ -1,0 +1,11 @@
+location = "East US 2"
+rg_name = "My-First-tf-resource"
+vnet = "Vnet-1"
+address_space = ["10.0.0.0/16"]
+address_subnet_1 = ["10.0.2.0/24"]
+address_subnet_2 = ["10.0.4.0/24"]
+vm_size = "Standard_B2ms"
+Linux_vm = "my-tf-linux01"
+Windows_vm = "my-tf-windows01"
+Linux_disk= "50"
+Windows_disk= "150"
